@@ -13,13 +13,21 @@ Custom Types of changes:
 
 #### Lecture 1 - Getting Start
 
+<details>
+  <summary>Expand!</summary>
+  
 - Concept of original webpage
 - Concept of Single Page Application (SPA)
 - Concept of Universal Appication
 - Prolem of original SPA and the rescure of NuxtJS
 
+</details>
+
 #### Lecture 2 - Pages and Routing
 
+<details>
+  <summary>Expand!</summary>
+  
 - a. Creating Our Homepage
   - Concept of components
   - Pass data from parrent to children through "prop"
@@ -52,3 +60,5 @@ Custom Types of changes:
   - Create a default.vue for the default layout with header is grey color
   - Clone a default.vue to red.vue for customize header with red color
   - In the sub page, we just nee to add `layout: "red",` to the export default to make it change from Homepage and sub page
+
+</details>
