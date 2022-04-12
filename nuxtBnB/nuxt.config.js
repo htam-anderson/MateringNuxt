@@ -16,5 +16,11 @@ export default {
     },
     router: {
         prefecthLinks: false
-    }
+    },
+    plugins: [
+        // we can define the mode to run plugin in server, client or both here by the object
+        // {src: '~/plugins/maps.client', mode: 'client'}
+        // since we already using naming convention of Nuxt then we just need to use a string path
+        '~/plugins/maps.client'
+    ]
 }
