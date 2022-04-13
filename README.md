@@ -58,3 +58,26 @@ Custom Types of changes:
 | f       | Solution - Plugins To The Rescue         | - Scine we have a bunch of code just for hanling showing google map on our page, we need the place to put all of that code to make the component source look nice and clean, that where plugin came for the rescure<br>- Create a plugins foleder, under that the file name have convention for nuxt to support us:<br>+ File name contain .client.js : Will let nuxt only run in browser<br>+ File name contain .server.js : Will let nuxt only run in server<br>+ File name contain .neither.js : Will let nuxt run in both<br>- Now we will migrate peace by peace to the plugin file we created `maps.client.js`<br>- After folow the process of creating plugin we will need to add the plugin to `nuxt.config.js` and call the function `showMap()` from plugin in `mounted()`                                                                                                                                                                                                                                                                                                    | *NOTE:* USING `maps` AS A PLUGIN NAME INSTEAD OF `googleMaps` BECAUSE OF WITH THE GENERIC NAME, WE DON'T NEED TO MODIFY ANYTHING ELSE BESIDE THE PLUGIN CODE IF WE CHANGE TO USE ANOTHER THING RATHER THAN GOOGLE MAP |
 
 </details>
+
+## [2022-04-13]
+
+### Learned
+
+#### Lecture 4 - Working with APIs
+
+<details>
+  <summary>Expand!</summary>
+
+| Section | Title                           | Learned Description                                                                                                                                          | Notes                                                                       |
+|---------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| a       | Creating an Algolia Account     | - Using [Algolia](https://www.algolia.com)                                                                                                                   |                                                                             |
+| b       | Using APIs on the Property Page | - Replacing local data test by calling API from algolia<br>- Adding plugins to call APIs<br>- Using nuxt hook `asyncData()` to trigger the function call API | - `asyncData()` is the hook from NuxtJS provide to executing on server side |
+| c       |                                 |                                                                                                                                                              |                                                                             |
+| d       |                                 |                                                                                                                                                              |                                                                             |
+| e       |                                 |                                                                                                                                                              |                                                                             |
+| f       |                                 |                                                                                                                                                              |                                                                             |
+| g       |                                 |                                                                                                                                                              |                                                                             |
+| h       |                                 |                                                                                                                                                              |                                                                             |
+| i       |                                 |                                                                                                                                                              |                                                                             |
+| j       |                                 |                                                                                                                                                              |                                                                             |
+</details>
